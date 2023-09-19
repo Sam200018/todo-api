@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @Entity
-@Table(schema = "Tasks")
+@Table(schema = "TasksCrud")
 public class Task {
 
     @Id
